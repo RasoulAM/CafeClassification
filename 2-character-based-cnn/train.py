@@ -4,7 +4,7 @@ import json
 import argparse
 import time
 
-from tqdm import tqdm
+from tqdm import tqdm_notebook as tqdm
 import numpy as np
 import torch
 import torch.nn as nn
