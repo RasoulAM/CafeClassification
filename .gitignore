@@ -1,8 +1,13 @@
+# Data
 data/raw/*
 data/formatted/*
 data/preprocessed/*
 
+#Virtual Environments
 .venv
 venv/
 ENV/
+
+# Jupyter Notebook
+.ipynb_checkpoints
 
