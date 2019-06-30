@@ -33,10 +33,18 @@ Have these numbers in mind before trying to fine tune a bert model locallly.
 
 We used this notebook for running text classification on the Divar posts dataset. (part of this dataset can be found [here](https://research.cafebazaar.ir/visage/datasets/)) The posts in this dataset came from 10 different categories.
 
-Dataset size | GPU RAM usage   |  Training time | Accuracy
--------------| :-------------: | :------------: | :----------------:
-100k         |  7.0 G          |  1h            | 92.82
-200k         |  7.6 G          |  2h            | 93.84
-500k         |  7.8 G          |  6h            | 94.68
+Dataset size | GPU RAM usage   |  Training time | Accuracy     
+-------------| :-------------: | :------------: | :---------: 
+100k         |  7.0 G          |  1h            | 92.82        
+200k         |  7.6 G          |  2h            | 93.84        
+500k         |  7.8 G          |  6h            | 94.68       
+
+Batch size | Average Infer Time
+---------- | :------------------:
+1          | 9.8 ms
+2          | 6.9 ms
+4          | 6.6 ms
+
+Model Size: 2.2 G
 
 Other experiments where conducted as well and the results will be released somewhere...:)
